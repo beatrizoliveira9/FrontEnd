@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<!-- TITULO NA ABA -->
+	<title>Entre em Contato</title>  
+	<!--Para pegar a logo lateral -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+	<!-- ICONE NA ABA -->
+	<link rel="icon" type="image/x-icon" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+	<meta charset="utf-8">
+	<!-- Para arquivo CSS-->
+	<link rel="stylesheet" href="styleContato.css">
+	<!-- -->
+</head>
+
+<body>
+		<div class="background">
+		<header>
+			<!--- LOGO LATERAL -->
+			<div class="logo">
+			
+			<!-- Logo B -->
+			<i class="fa-solid fa-b"></i>
+			
+			</div><!-- Logo -->
+			
+			<div class="cabeçalho-link">
+				<li>
+					<a href="Inicio.html"> Inicio </a>
+				</li>
+				<li>
+					<a href="Sobre.html"> Sobre </a>
+				</li>
+				<li>
+					<a href="Troia.html"> Troia </a>
+				</li>
+				
+				<button href="contato.html"> Entre em Contato </button>
+				
+			</div><!-- cabeçalho-link -->
+		</header>
+		
+		<div class="box">
+		<fieldset>
+			<legend> Entre em Contato </legend>
+		<form>
+			
+			<div>
+				<input type="text" placeholder="Digite seu nome" class="inputs">
+			</div>
+			
+			<div>
+				<input type="email" placeholder="Digite seu email" class="inputs">
+			</div>
+			
+			<div>
+				<input type="tel" placeholder="Digite seu telefone" class="inputs">
+			</div>
+			<p> Digite sua Data de Nascimento: </p>
+			<div>
+				<input type="date" placeholder="Data de Nascimento" class="inputs" required>
+			</div>
+			
+			<p>Sexo:</p>
+			<div class="box-select">
+				<input type="radio" id="feminino" name="genero" value="feminino" required>
+					<label for="feminino"> Feminino </label>
+				<input type="radio" id="masculino" name="genero" value="masculino" required>
+					<label for="masculino"> Masculino </label>
+				<input type="radio" id="outro" name="genero" value="outro" required>
+					<label for="outro"> Outro </label>
+			</div>
+			<textarea name="mensagem" id="mensagem" cols="15" rows="10" placeholder="Digite sua mensagem" class="inputs" required> </textarea>
+			<br> <button type="submit">Enviar</button>
+			
+			
+		</form>
+		</fieldset>
+		</div>
+		
+		
+	<footer> <!-- Rodapé -->
+		<div class="redessociais"> <!---Colocar icones das Redes Sociais -->
+			   <a href="https://www.facebook.com/beatriz.oliveira1902?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i> </a> 
+			   <a href="https://instagram.com/_euzebio?igshid=MzRlODBiNWFlZA=="><i class="fa-brands fa-instagram"></i></a>
+			   <a href="https://www.linkedin.com/in/beatriz-euzebio-972011193"><i class="fa-brands fa-linkedin"></i></a>
+		</div> <!---Redes Sociais -->
+	</footer>
+</body>
